@@ -201,7 +201,7 @@ if not defined RESTIC_PASSWORD (
 	echo Assegure-se de que não houve nenhum erro nos retornos do utilitário.
 	echo.
 	echo Para tentar realizar esse backup novamente, pressione 1.
-	echo Para continuar para o próximo backup, pressione 9.
+	echo Para finalizar o utilitário, pressione 9.
 	echo.
 	echo ==================================================
 	echo.

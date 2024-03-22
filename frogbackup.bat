@@ -170,7 +170,7 @@ if "!escolha!"=="9" (
 :onedrive
 echo ==================================================
 echo.
-echo FROGBACKUP - Rio McCloud
+echo FROGBACKUP -
 echo Etapa 4 de 4: OneDrive
 echo.
 echo Insira a senha Restic para OneDrive e pressione Enter.

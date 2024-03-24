@@ -5,7 +5,7 @@ color 1f
 
 :inicio
 :: Verificar se é sábado
-for /f "skip=1" %%a in ('wmic path win32_localtime get dayofweek') do set dia=%%a
+for /f "skip=1" %%a in ('wmic path win32_localtime get dayofweek') do (set /a dia=%%a 2>nul)
 if "!dia!"=="6" (
 	goto pendrive
 ) else (
